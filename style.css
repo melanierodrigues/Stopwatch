@@ -198,12 +198,12 @@ main {
     margin-top: 1vh;
 }
 
-@media(hover: hover) and (pointer: fine) {
-    #btn-share:hover{
-        transform: scale(1.1);
-        background-color: var(--colorbotoes2);
-    }
+
+#btn-share:hover{
+    transform: scale(1.1);
+    background-color: var(--colorbotoes2);
 }
+
 
 #btn-share-span {
     position: absolute;
@@ -219,13 +219,13 @@ main {
     border-radius: 60px;
 }
 
-@media(hover: hover) and (pointer: fine) {
-    #btn-share-span:hover {
-        position: absolute;
-        transform: translateY(-100%);
-        transition-delay: 0.3s;
-    }
+
+#btn-share-span:hover {
+    position: absolute;
+    transform: translateY(-100%);
+    transition-delay: 0.3s;
 }
+
 
 #btn-share-2 {
     width: 100%;
