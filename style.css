@@ -23,7 +23,7 @@ body {
 }
 
 main {
-    height: 100vh;
+    height: calc(90vh - 40px);
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -36,8 +36,8 @@ main {
 }
 
 .display {
-    margin-top: 150px;
-    margin-top: calc(50vh - 150px);
+    /* margin-top: calc(50vh - 150px); */
+    margin-top: calc(40vh - 150px);
     height: 300px;
     width: 300px;
     background-color: rgba(255, 255, 0, 0);
@@ -184,7 +184,6 @@ main {
     border-width: 3px;
     border-color: var(--colorazulescuro1);
     padding: 10px;
-    margin-top: -50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -281,7 +280,7 @@ main {
 
 footer {
     width: 100vw;
-    margin: 5vh 0vh 2vh 0vh;
+    margin: 4vh 0vh;
     display: flex;
     position: fixed;
     flex-direction: column;
