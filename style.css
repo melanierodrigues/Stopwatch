@@ -93,15 +93,17 @@ main {
     text-decoration: none;
 }
 
-#btn-start:hover {
-    position: absolute;
-    margin-top: -145px;
-    margin-left: 105px;
-    cursor: pointer;
-    transform: rotate(45deg);
-    border: none;
-    background-color: var(--colorbotoes1);
-    color: var(--colorazulescuro1);
+@media(hover: hover) and (pointer: fine) {
+    #btn-start:hover {
+        position: absolute;
+        margin-top: -145px;
+        margin-left: 105px;
+        cursor: pointer;
+        transform: rotate(45deg);
+        border: none;
+        background-color: var(--colorbotoes1);
+        color: var(--colorazulescuro1);
+    }
 }
 
 #btn-start:focus {
@@ -134,19 +136,21 @@ main {
     transition: 0.01s linear;
 }
 
-#btn-reset:hover {
-    width: 45px;
-    height: 15px;
-    position:absolute;
-    margin-top: -145px;
-    margin-left: -150px;
-    cursor: pointer;
-    transform: rotate(-45deg);
-    border: none;
-    background-color: var(--colorbotoes2);
-    color: white;
-    font-size: 12px;
-    transition: 0.01s linear;
+@media(hover: hover) and (pointer: fine) {
+    #btn-reset:hover {
+        width: 45px;
+        height: 15px;
+        position:absolute;
+        margin-top: -145px;
+        margin-left: -150px;
+        cursor: pointer;
+        transform: rotate(-45deg);
+        border: none;
+        background-color: var(--colorbotoes2);
+        color: white;
+        font-size: 12px;
+        transition: 0.01s linear;
+    }
 }
 
 #btn-stop {
@@ -194,9 +198,11 @@ main {
     margin-top: 1vh;
 }
 
-#btn-share:hover{
-    transform: scale(1.1);
-    background-color: var(--colorbotoes2);
+@media(hover: hover) and (pointer: fine) {
+    #btn-share:hover{
+        transform: scale(1.1);
+        background-color: var(--colorbotoes2);
+    }
 }
 
 #btn-share-span {
@@ -213,10 +219,12 @@ main {
     border-radius: 60px;
 }
 
-#btn-share-span:hover {
-    position: absolute;
-    transform: translateY(-100%);
-    transition-delay: 0.3s;
+@media(hover: hover) and (pointer: fine) {
+    #btn-share-span:hover {
+        position: absolute;
+        transform: translateY(-100%);
+        transition-delay: 0.3s;
+    }
 }
 
 #btn-share-2 {
@@ -233,13 +241,15 @@ main {
     margin-left: 10px;
 }
 
-#btn-share-2:hover {
-    width: 110%;
-    height: 110%;
-    position: absolute;
-    z-index: 999;
-    background-color:var(--colorbotoes2);
-    line-height: 67px;
+@media(hover: hover) and (pointer: fine) {
+    #btn-share-2:hover {
+        width: 110%;
+        height: 110%;
+        position: absolute;
+        z-index: 999;
+        background-color:var(--colorbotoes2);
+        line-height: 67px;
+    }
 }
 
 #btn-share-icon {
@@ -252,9 +262,11 @@ main {
     z-index: 1;
 }
 
-#btn-share-icon:hover {
-    transform: scale(1.5);
-}   
+@media(hover: hover) and (pointer: fine) {
+    #btn-share-icon:hover {
+        transform: scale(1.5);
+    }   
+}
 
 #by-2 {
     text-decoration: none;
@@ -264,8 +276,10 @@ main {
     margin-top: 1px;
 }
 
-#by-1:hover {
-    color: var(--colorazulescuro2);
+@media(hover: hover) and (pointer: fine) {
+    #by-1:hover {
+        color: var(--colorazulescuro2);
+    }
 }
 
 #by-1 {
@@ -274,8 +288,10 @@ main {
     font-size: 17px;
 }
 
-#by-2:hover {
-    color: var(--colorazulescuro2);
+@media(hover: hover) and (pointer: fine) {
+    #by-2:hover {
+        color: var(--colorazulescuro2);
+    }
 }
 
 footer {
