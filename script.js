@@ -48,12 +48,6 @@ function write() {
     time.innerHTML = `${ht}:${mt}:${st}.${mlts}`;
 }
 
-/*function start() {
-    write();
-    timeStarted = setInterval(write, 10);
-    btnStart.removeEventListener("click", start);
-}*/
-
 function start(){
     write();
     timeStarted = setInterval(write, 10);
